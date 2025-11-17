@@ -1,5 +1,39 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 20px rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 0.2);
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.8),
+      0 0 20px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3);
+  }
+}
+
 .navbar {
   @apply w-screen bg-[rgb(17_17_17_/_0.75)];
+}
+
+.navbar {
+  @apply flex justify-between;
+}
+
+.left-section {
+  @apply flex gap-6;
+}
+
+.navbar-button {
+  @apply text-white flex items-center justify-center border-t-4 border-t-transparent hover:border-t-4 hover:border-t-blue-400;
+  transition: all 0.3s ease;
+}
+
+.navbar-button:hover {
+  text-shadow: 0 0 10px rgba(105, 160, 248, 0.877),
+    0 0 20px rgba(59, 130, 246, 0.5), 0 0 30px rgba(59, 130, 246, 0.3);
+}
+
+.right-section {
+  @apply text-white flex gap-6;
 }
