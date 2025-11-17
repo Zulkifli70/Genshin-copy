@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.navbar {
+  @apply w-screen bg-[rgb(17_17_17_/_0.75)];
+}
