@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./Navbar";
+import { FaPlay } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <main>
+    <main className="hero-main">
       <video
         autoPlay
         loop
@@ -13,6 +14,14 @@ const Hero = () => {
         <source src="/genshin-bg.mp4" type="video/mp4" />
       </video>
       <Navbar />
+      <div className="hero-section">
+        <button className="play-button">
+          <FaPlay size={20} className="start" />
+        </button>
+        <h1 className="tagline">
+          Released on Multiple Platforms - Download Now!
+        </h1>
+      </div>
     </main>
   );
 };
