@@ -86,6 +86,14 @@
   @apply flex-1;
 }
 
+.news {
+  @apply flex flex-col justify-center;
+}
+
+.news-link {
+  @apply p-3.5 flex items-center justify-between text-white border-b-1 border-[rgba(172,170,166,0.42)];
+}
+
 /* Region section */
 .region-section {
   @apply h-screen;
