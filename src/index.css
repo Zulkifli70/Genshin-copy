@@ -12,16 +12,14 @@
   }
 }
 
+/* Hero Sections */
+
 .hero-main {
-  @apply flex flex-col justify-between h-screen;
+  @apply flex flex-col justify-end h-screen;
 }
 
 .navbar {
-  @apply w-screen bg-[rgb(17_17_17_/_0.75)];
-}
-
-.navbar {
-  @apply flex justify-between;
+  @apply flex justify-between w-screen bg-[rgb(17_17_17_/_0.75)] fixed;
 }
 
 .left-section {
@@ -48,7 +46,7 @@
 
 .play-button {
   @apply bg-white rounded-[100%] p-5 border-2 border-transparent hover:bg-transparent hover:text-white cursor-pointer hover:border-2 hover:border-white;
-  transition: 500ms;
+  transition: 300ms;
 }
 
 .start {
@@ -63,4 +61,15 @@
 .tagline {
   @apply text-white text-3xl font-semibold;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* News sections */
+
+.news-section {
+  @apply h-screen bg-[url(/news-bg.png)];
+}
+
+/* Region section */
+.region-section {
+  @apply h-screen;
 }
