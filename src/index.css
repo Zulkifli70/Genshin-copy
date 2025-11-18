@@ -66,11 +66,24 @@
 /* News sections */
 
 .news-section {
-  @apply h-screen bg-[url(/news-bg.png)];
+  @apply h-screen bg-[url(/news-bg.png)] flex flex-col items-center gap-15;
 }
 
 .news-header {
   @apply flex justify-center;
+}
+
+.news-card {
+  @apply w-3/4 flex mt-13;
+  background-color: rgba(66, 59, 59, 0.425);
+}
+
+.news-img {
+  @apply flex-1;
+}
+
+.news-list {
+  @apply flex-1;
 }
 
 /* Region section */
