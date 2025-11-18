@@ -35,7 +35,9 @@ const Navbar = () => {
         <button className="flex items-center gap-3">
           Log In <FaCircleUser size={25} />
         </button>
-        <button className="p-4 bg-[#FFD005] text-[#5d4a22]">Download</button>
+        <button className="p-4 px-10 bg-[#FFD005] text-[#5d4a22] font-semibold tracking-wider">
+          Download
+        </button>
       </div>
     </div>
   );
