@@ -43,7 +43,7 @@
 }
 
 .hero-section {
-  @apply flex flex-col justify-center items-center p-4 gap-5;
+  @apply flex flex-col justify-center items-center mb-15 gap-5;
 }
 
 .play-button {
@@ -55,6 +55,12 @@
   @apply ml-0.5;
 }
 
+.available-platform {
+  @apply grid justify-center items-center gap-4;
+  grid-template-columns: auto repeat(4, (1fr));
+}
+
 .tagline {
   @apply text-white text-3xl font-semibold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
