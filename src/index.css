@@ -97,8 +97,25 @@
 /* Region section */
 
 .region {
-  @apply flex justify-center items-center h-80 border-4 border-transparent hover:border-white;
+  @apply flex justify-center items-center h-80 border-4 border-transparent hover:border-white overflow-hidden relative;
   transition: border 500ms;
+}
+
+.region-name {
+  @apply text-4xl text-white font-bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.region-chara {
+  @apply absolute w-2xl;
+  opacity: 0;
+  top: 10%;
+  right: 25%;
+  transition: opacity 500ms;
+}
+
+.region:hover .region-chara {
+  opacity: 1;
 }
 
 .mondo {
