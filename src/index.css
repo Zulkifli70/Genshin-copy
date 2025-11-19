@@ -109,8 +109,6 @@
 .region-chara {
   @apply absolute w-2xl;
   opacity: 0;
-  top: 10%;
-  right: 25%;
   transition: opacity 500ms;
 }
 
