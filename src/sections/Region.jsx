@@ -4,7 +4,7 @@ const Region = () => {
   return (
     <div className="region-section">
       <div className="region mondo">
-        <h1>Mondstadt</h1>
+        <h1 className="relative z-10">Mondstadt</h1>
       </div>
       <div className="region liyue">Liyue</div>
       <div className="region inazuma">Inazuma</div>

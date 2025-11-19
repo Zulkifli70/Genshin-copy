@@ -97,16 +97,26 @@
 /* Region section */
 
 .region {
-  @apply p-2 flex justify-center items-center h-80 border-4 border-transparent hover:border-white;
+  @apply flex justify-center items-center h-80 border-4 border-transparent hover:border-white;
   transition: border 500ms;
 }
 
 .mondo {
-  @apply bg-[url(/region/mondo.jpg)] bg-position-[center_40%] bg-cover;
+  @apply bg-[url(/region/mondo.jpg)] bg-center bg-no-repeat w-full;
   transition: background-size 500ms ease;
-  background-size: 100%;
+  background-size: 105%;
 }
 
 .mondo:hover {
-  background-size: 110%; /* Hanya background yang membesar */
+  background-size: 115%;
+}
+
+.liyue {
+  @apply bg-[url(/region/liyue.png)] bg-[center_30%] bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 105%;
+}
+
+.liyue:hover {
+  background-size: 115%;
 }
