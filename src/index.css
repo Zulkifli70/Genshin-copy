@@ -95,6 +95,18 @@
 }
 
 /* Region section */
-.region-section {
-  @apply h-screen;
+
+.region {
+  @apply p-2 flex justify-center items-center h-80 border-4 border-transparent hover:border-white;
+  transition: border 500ms;
+}
+
+.mondo {
+  @apply bg-[url(/region/mondo.jpg)] bg-position-[center_40%] bg-cover;
+  transition: background-size 500ms ease;
+  background-size: 100%;
+}
+
+.mondo:hover {
+  background-size: 110%; /* Hanya background yang membesar */
 }
