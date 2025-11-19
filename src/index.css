@@ -102,7 +102,7 @@
 }
 
 .mondo {
-  @apply bg-[url(/region/mondo.jpg)] bg-center bg-no-repeat w-full;
+  @apply bg-[url(/region/mondstadt.jpg)] bg-[center_30%] bg-no-repeat w-full;
   transition: background-size 500ms ease;
   background-size: 105%;
 }
@@ -119,4 +119,14 @@
 
 .liyue:hover {
   background-size: 115%;
+}
+
+.inazuma {
+  @apply bg-[url(/region/inazuma.jpg)] bg-center bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 101%;
+}
+
+.inazuma:hover {
+  background-size: 111%;
 }
