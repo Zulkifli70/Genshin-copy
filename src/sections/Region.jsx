@@ -12,7 +12,7 @@ const Region = () => {
       <div className="region fontaine">Fontaine</div>
       <div className="region natlan">Natlan</div>
       <div className="region nod-krai">Nod Krai</div>
-      <div className="region-asap">Coming Soon</div>
+      <div className="region asap">Coming Soon</div>
     </div>
   );
 };

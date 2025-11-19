@@ -130,3 +130,43 @@
 .inazuma:hover {
   background-size: 111%;
 }
+
+.sumeru {
+  @apply bg-[url(/region/sumeru.webp)]  bg-center bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 101%;
+}
+
+.sumeru:hover {
+  background-size: 111%;
+}
+
+.fontaine {
+  @apply bg-[url(/region/Fontaine.webp)]  bg-[center_30%] bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 101%;
+}
+
+.fontaine:hover {
+  background-size: 111%;
+}
+
+.natlan {
+  @apply bg-[url(/region/natlan.png)]  bg-[center_30%] bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 101%;
+}
+
+.natlan:hover {
+  background-size: 111%;
+}
+
+.nod-krai {
+  @apply bg-[url(/region/nodkrai.jpg)]  bg-[center_30%] bg-no-repeat w-full;
+  transition: background-size 500ms ease;
+  background-size: 101%;
+}
+
+.nod-krai:hover {
+  background-size: 111%;
+}
