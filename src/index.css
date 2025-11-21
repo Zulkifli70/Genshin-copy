@@ -185,3 +185,7 @@
 .nod-krai:hover {
   background-size: 111%;
 }
+
+.region-asap {
+  @apply bg-gray-600 flex justify-center items-center h-80;
+}

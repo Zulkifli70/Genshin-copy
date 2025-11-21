@@ -59,7 +59,7 @@ const Region = () => {
           className="region-chara top-[-8%] right-[18%]"
         />
       </div>
-      <div className="region asap">Coming Soon</div>
+      <div className="region-asap region-name">Coming Soon</div>
     </div>
   );
 };
