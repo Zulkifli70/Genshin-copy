@@ -203,3 +203,17 @@
 .region-asap {
   @apply bg-gray-600 flex justify-center items-center h-80;
 }
+
+/* Footer Link */
+
+.soc-icon {
+  @apply text-gray-400;
+}
+
+.soc-icon:hover {
+  @apply text-white;
+}
+
+.footer-link:hover {
+  @apply text-white;
+}
