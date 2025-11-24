@@ -79,7 +79,21 @@
 }
 
 .news-img {
-  @apply flex-1;
+  @apply flex-1 relative;
+}
+
+.news-img img {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.news-image-transition {
+  position: absolute; /* Supaya gambar menumpuk */
+  top: 0;
+  left: 0;
+  transition: opacity 800ms ease-in-out; /* Durasi transisi 800ms */
 }
 
 .news-list {

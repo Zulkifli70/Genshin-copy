@@ -21,4 +21,23 @@ const newsList = [
   },
 ];
 
-export { newsList };
+const images = [
+  {
+    imgUrl: "/event/event5.jpg",
+    imgAlt: "event1",
+  },
+  {
+    imgUrl: "/event/event2.jpg",
+    imgAlt: "event2",
+  },
+  {
+    imgUrl: "/event/event3.jpg",
+    imgAlt: "event3",
+  },
+  {
+    imgUrl: "/event/event4.jpg",
+    imgAlt: "event4",
+  },
+];
+
+export { newsList, images };
