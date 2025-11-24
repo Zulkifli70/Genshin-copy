@@ -19,7 +19,7 @@
 }
 
 .navbar {
-  @apply flex justify-between w-full bg-[rgb(17_17_17_/_0.75)] fixed;
+  @apply flex justify-between w-full bg-[rgb(17_17_17_/_0.75)] fixed z-40;
 }
 
 .left-section {
