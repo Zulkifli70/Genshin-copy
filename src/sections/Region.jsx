@@ -59,7 +59,9 @@ const Region = () => {
           className="region-chara top-[-8%] right-[18%]"
         />
       </div>
-      <div className="region-asap region-name">Coming Soon</div>
+      <div className="region-asap">
+        <h1 className="region-name opacity-50 cursor-default">Coming Soon</h1>
+      </div>
     </div>
   );
 };
